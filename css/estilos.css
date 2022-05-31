@@ -1,0 +1,91 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+header{
+	background-color: #1C658C;
+	height: 90px;
+	color: #131111;
+	
+}
+
+
+
+footer{
+	background-color: #1C658C;
+	height: 200px;
+	color: #131111;
+}
+
+.boton{
+	background: #2F8F9D;
+	color: #FFFFFF;
+
+}
+
+#principal{
+	padding: 0.5em;
+	height: 300px;
+
+
+}
+
+.dos,.tres{
+	padding: 0.5em;
+	
+}
+.nota{
+	background-color: #1C658C;
+}
+.fa-facebook,.fa-twitter{
+	padding: 20px;
+	color: white;
+    text-align: center;
+    width: 50px;
+	height: 50px;
+	border-radius: 50%
+}
+.redes{
+	width: 30px;
+}
+.contacto{
+	width: 20px;
+
+}
+.login{
+	height: 600px;
+	padding: 5.5em;
+}
+.tablausuarios{
+	background-color: #1C658C;
+	color: #ffffff;
+}
+/* desplegable*/
+.collapsible {
+  background-color:#1C658C;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #40a2af;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #a1ebb9;
+}
+
+
+/*fin del desplegable*/
+
